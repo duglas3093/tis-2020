@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('./principal/index');
+});
+Route::get('convocatorias', function(){
+    return view('./principal/convocatorias');
+});
+Route::get('contacto', function(){
+    return view('./principal/contacto');
 });
