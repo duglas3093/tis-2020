@@ -1,13 +1,13 @@
 @extends('layouts.principal')
     @section('content')
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row border border-dark mt-3 mb-3 rounded">
+            <div class="col-md-4 mt-3">
                 <figure>
-                    <img src="./images/img_contacto.jpg" width="100%" alt="">
+                    <img class="rounded" src="./images/img_contacto.jpg" width="100%" alt="">
                 </figure>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-8 col-sm-12 mt-3 mb-3">
                 <form>
                     <div class="form-group">
                         <label for="fnombre">Nombre:</label>
@@ -25,6 +25,7 @@
                         <label for="fcontenido">Contenido:</label>
                         <textarea class="form-control" id="idcontenido" rows="3"></textarea>
                     </div>
+                    <p class="text-center"><input class="btn btn-primary btn-lange" type="submit" value="Enviar"></p>
                 </form>
             </div>
         </div>
