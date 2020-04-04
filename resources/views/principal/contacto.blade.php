@@ -1,8 +1,9 @@
 @extends('layouts.principal')
     @section('content')
     <div class="container">
+        <h3 class="text-uppercase text-center">contactanos</h3>
         <div class="row border border-dark mt-3 mb-3 rounded">
-            <div class="col-md-4 mt-3">
+            <div class="col-md-4 mt-3 d-none d-sm-none d-md-block">
                 <figure>
                     <img class="rounded" src="./images/img_contacto.jpg" width="100%" alt="">
                 </figure>

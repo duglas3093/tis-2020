@@ -13,25 +13,24 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Convocatorias a Auxiliares</a>
+        <a class="navbar-brand" href="./">Convocatorias a Auxiliares</a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./">Inicio</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./convocatorias">Convocatorias</a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Consulta de Resultados</a></li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contacto">Contacto</a>
                 </li>
                 
             </ul>
             <ul class="navbar-nav ml-auto mt-2-mt-lg-0">
-                <li class="nav-item"><a href="#" class="nav-link">Iniciar Sesión</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Registrarse</a></li>
+                <li class="nav-item"><a href="./login" class="nav-link">Iniciar Sesión</a></li>
+                <li class="nav-item"><a href="./register" class="nav-link">Registrarse</a></li>
             </ul>
         </div>
     </nav>

@@ -20,3 +20,9 @@ Route::get('convocatorias', function(){
 Route::get('contacto', function(){
     return view('./principal/contacto');
 });
+Route::get('login', function(){
+    return view('./login');
+});
+Route::get('register', function(){
+    return view('./register');
+});
