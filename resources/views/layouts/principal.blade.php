@@ -29,8 +29,21 @@
                 
             </ul>
             <ul class="navbar-nav ml-auto mt-2-mt-lg-0">
-                <li class="nav-item"><a href="./login" class="nav-link">Iniciar Sesión</a></li>
-                <li class="nav-item"><a href="./register" class="nav-link">Registrarse</a></li>
+                <!-- Authentication Links -->
+                <!-- @if (Auth::guest()) -->
+                <li class="nav-item"><a class="nav-link" href="{{ url('/login') }}">Iniciar Sesión</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/register') }}">Registrarse</a></li>
+                <!-- @else
+                    <li class="dropdown nav-item">
+                        <a class="nav-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                @endif -->
             </ul>
         </div>
     </nav>

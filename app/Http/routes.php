@@ -26,3 +26,9 @@ Route::get('login', function(){
 Route::get('register', function(){
     return view('./register');
 });
+
+Route::auth();
+
+Route::get('/admin', 'AdminController@index');
+
+Route::get('/home', 'HomeController@index');
